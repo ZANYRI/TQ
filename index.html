@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея 5-этажного дома</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .image-container {
+            margin: 30px; 
+            text-align: center;
+        }
+
+        .architectural-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .architectural-image:hover {
+            transform: scale(1.05);
+        }
+
+        .image-description {
+            margin-top: 20px; 
+            line-height: 1.6; 
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Галерея 5-этажного дома</h1>
+    </header>
+
+    <section>
+        <div class="image-container">
+            <img class="architectural-image" src="./1.jpg" alt="Фасад здания современного 5-этажного дома">
+            <p class="image-description">
+                Фасад современного здания выделяется утонченным дизайном и яркими элементами. 
+                Структура воплощает в себе современные архитектурные тенденции, обеспечивая стильное и комфортное пространство для проживания. 
+                Подсвеченные линии и формы создают впечатляющий внешний вид.
+            </p>
+        </div>
+
+        <div class="image-container">
+            <img class="architectural-image" src="./2.jpg" alt="Панорамный вид на дом с улицы">
+            <p class="image-description">
+                Панорамный вид на дом с улицы демонстрирует его величественность и уникальность в контексте окружающей застройки. 
+                Архитектурные решения придают зданию элегантность и привлекательность. 
+                Внимание к деталям и использование современных материалов создают неповторимый облик.
+            </p>
+        </div>
+
+        <div class="image-container">
+            <img class="architectural-image" src="./3.jpg" alt="Внутренний двор с зеленым озеленением">
+            <p class="image-description">
+                Внутренний двор с зеленым озеленением предоставляет жителям уютное место для отдыха и расслабления. 
+                Зеленые насаждения создают природную атмосферу, подчеркивая гармонию с природой в городской среде. 
+                Современные бенчи и пешеходные дорожки делают это место идеальным для встреч с соседями.
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
